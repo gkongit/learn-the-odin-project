@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #181818;
+}
+
+.logo {
+    font-size: 2.5em;
+}
+
+.nav-bar {
+    background-color: #0b0b0b;
+    color: white;
+    padding: 20px;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-option {
+    font-size: 1.5em;
+    color: rgb(0, 150, 255);
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-option:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 30px;
+    color: white;
+}
+
+img {
+    border-radius: 20px;
+    border: 2px solid white;
+    display: block;
+    width: 50%;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.ingredients-list {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.steps {
+    margin-left: 15px;
+}
+
+.other-recipes {
+    color: white;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 10px 20px;
+    background-color: #090909;
+}
+
+a {
+    color: rgb(0, 150, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.subheading {
+    margin-bottom: 20px;
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.recipe-card {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: #090909;
+    transition: 0.3s all ease-in-out;
+}
+
+.recipe-card img {
+    width: 100%;
+}
+
+.recipe-card:hover {
+    background-color: #ffffff20;
+}
